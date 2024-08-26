@@ -1,6 +1,31 @@
 # credit-risk-classification
 Module 20 Challenge
-Background
+
+## Report
+
+## Overview of the Analysis
+
+The exercise creates a machine learning model to analyse and learn from the data provided and predict the accuracy of new loans. The dataset provided the typical information required for a loan aplication.
+The outcome is to predict the loan_status value (0 low risk or 1 high risk)
+
+MAchine learning stages
+    * Data Preparation: get the data and separated features (X) and (y).
+    * Data Splitting: Split the data into training and testing sets in the standard form (70-30)
+    * Model Training: Traine the model using splitted train data
+    * Create confussion matrix
+    * Model Report: Retrieve results on accuracy of prediction, false positives and negatives
+
+`LogisticRegression` was used : This type of statistical model (also known as logit model) is often used for classification and predictive analytics. Since the outcome is a probability, the dependent variable is bounded between 0 and 1. In logistic regression, a logit transformation is applied on the odds—that is, the probability of success divided by the probability of failure.
+
+## Results
+
+The accuracy achieved was 0.99
+
+## Summary
+
+Logistic Regression model can well predict loan outcome for this dataset.
+
+## Background
 In this Challenge, you’ll use various techniques to train and evaluate a model based on loan risk. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
 Before You Begin
